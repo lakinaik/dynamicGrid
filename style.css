@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    padding: 25px;
+}
+
+section h2{
+    font-weight: 500;
+}
+.box{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.item{
+    margin: 12px;
+    width: 17%;
+    min-width: 200px;
+    height: auto;
+    cursor: pointer;
+    box-shadow: 0px 0px 4px 4px #ccc;
+    transition: all .2s;
+}
+.item:hover{
+    box-shadow: 0px 0px 8px 4px #8d8787;
+}
+img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.item-name{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: rgb(27, 25, 25);
+    margin: 12px;
+
+}
+.item-brand{
+    margin-top: 10px;
+    text-align: left;
+    font-size: 12px;
+    color: rgb(110, 110, 110);
+    margin: 12px;
+
+}
+.item-price{
+    margin-top: 10px;
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #009688;
+    margin: 12px;
+}
